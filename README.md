@@ -80,6 +80,8 @@
 - [產生的數據的真確性](#產生的數據的真確性)
 - [人工智能的分類/預測輸出與真值之間的誤差](#人工智能的分類預測輸出與真值之間的誤差)
 
+
+
 ---
 
 # 鏡頭
@@ -92,20 +94,38 @@
 ## 物體偵測
 - [Teachable Machine](https://teachablemachine.withgoogle.com/)
 - [YOLOv8](https://huggingface.co/spaces/Xenova/yolov9-web)
+- [臉部偵測 - MIT Scratch](https://resources.scratch.mit.edu/www/lessons/en/ScratchLearningResource_ScratchAILesson.pdf)
 
 ## 圖片/影像分割
 - [Segment Anything (SAM)](https://segment-anything.com/)
 - [SAM Model in Hugging Face](https://huggingface.co/spaces/amaye15/segment-anything-2-point-prompt-app)
 
+## 身體骨架偵測
+- [Move Mirror](https://experiments.withgoogle.com/move-mirror)
+- [Teachable Machine Pose Project](https://teachablemachine.withgoogle.com/train)
 
 ---
 
 # 數據種類
 ## 文字/數字
-內容...
+- [ASCII Table](https://www.ascii-code.com/)
+  - 26個英文字, A-Z
+  - 數字
+    - 整數 0-9
+    - 浮點數 0.0-9.9
+    - 負數 -1-9
+    - 小數點 0.01-0.99
+    - 分數 1/2-9/9
+
+- ~3000 中文字達至99%日常生活用途
+
+## 
 
 ## 圖片
-- JPG
+- Pixel 像素
+  - [選色工具, RGB, CMYK, HEX](https://www.ginifab.com.tw/tools/colors/color_picker_from_image.php) 
+
+- [JPG](https://parametric.press/issue-01/unraveling-the-jpeg/)
 - PNG
 - GIF
 
@@ -117,8 +137,12 @@
 - MP3
 
 ## 其他檔案
-- JSON
 
+
+- [JSON](https://developer.mozilla.org/zh-TW/docs/Learn/JavaScript/Objects/JSON)
+- CSV
+- [Markdown md](https://markdown.com.cn/cheat-sheet.html#%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95) 
+  - [Markdown Table Convertor(Excel, CSV, Markdown)](https://tableconvert.com/)
 ---
 
 # 數據視覺化
@@ -129,19 +153,20 @@
 內容...
 
 ## 統計學圖表
-內容...
+- [Observable 例子](https://observablehq.com/@observablehq/get-started-with-chart-cell?collection=@observablehq/tutorial)
+- [Primary mortgage market survey](https://observablehq.observablehq.cloud/framework-example-mortgage-rates/)
 
 ## 熱力圖
-內容...
+- [熱力圖例子](https://d3-graph-gallery.com/heatmap#heatmap)
 
 ## 地圖
-內容...
+- [Observable 例子](https://observablehq.com/@observablehq/build-your-first-choropleth-map-with-observable-plot?collection=@observablehq/tutorial)
 
 ## 資訊圖表
 內容...
 
 ## 儀表板
-內容...
+- [Hotel reservations by market segment](https://observablehq.observablehq.cloud/framework-example-hotel-bookings/)
 
 ---
 
@@ -180,10 +205,13 @@
 內容...
 
 ## 自然語言處理
-內容...
+- [自然語言處理 - Natural Language Processing, NLP](https://playground.raise.mit.edu/raica/?project=https://www.dropbox.com/s/915gp92iej5qcz7/LampFanRadio.sb3?dl%3D0)
+- [The Tokenizer Playground](https://huggingface.co/spaces/Xenova/the-tokenizer-playground)
 
 ## 卷積神經網絡(CNN)
-內容...
+- [CNN Explainer](https://poloclub.github.io/cnn-explainer/)
+- [Convoulation 卷積] (https://huggingface.co/spaces/Xenova/convoulation)
+- [利用Feature Visualization 了解CNN到底在看什麼](https://medium.com/ai-academy-taiwan/%E5%88%A9%E7%94%A8feature-visualization-%E4%BA%86%E8%A7%A3cnn%E5%88%B0%E5%BA%95%E5%9C%A8%E7%9C%8B%E4%BB%80%E9%BA%BC-40d36b347448)
 
 ## 遞歸神經網絡(RNN)
 內容...
@@ -227,6 +255,13 @@
 
 ## 聊天機械人
 - [HuggingChat](https://huggingface.co/chat/)
+- [文心一言](https://yiyan.baidu.com/)
+- [商湯日日新](https://platform.sensenova.cn)
+- [通義千問](https://tongyi.aliyun.com/qianwen/)
+- [Microsoft Co-pilot](https://copilot.microsoft.com/)
+- [POE](https://poe.chat/)
+- [AI Dungeon](https://play.aidungeon.io/)
+- [Perplexity](https://www.perplexity.ai/)
 
 ## 編程
 - [Cursor101](https://github.com/biubiubiu35/cursor101)
@@ -239,6 +274,9 @@
 # API
 ## 提取開放數據
 - [香港政府開放數據平台](https://data.gov.hk/tc/)
+- [Dog Picture API](https://dog.ceo/dog-api/)
+- [Pokemon API](https://pokeapi.co/)
+- [Public API](https://github.com/public-apis/public-apis#index)
 
 ## 儲存數據
 內容...
@@ -248,7 +286,6 @@
 # 文字
 ## 生成X
 X = 文字/圖片/影像/聲音/語音/音樂
-
 - [文字生成文字, ChatGPT]()
 - [文字生成文字建議, Suggestion]()
 - [文字翻譯文字, Translation]()
@@ -257,6 +294,8 @@ X = 文字/圖片/影像/聲音/語音/音樂
 - [文字生成圖片, Stable Diffusion]()
 - [文字生成影像, RunwayML]()
 - [文字生成投影片, Gamma.ai](https://gamma.app/)
+- [文字生成音樂, Musical Canvas](https://artsandculture.google.com/experiment/musical-canvas/6AF2kMdrQhI4tQ)
+- [文字生成音樂, Music FX(Google Account needed)](https://aitestkitchen.withgoogle.com/tools/music-fx)
 
 ---
 
@@ -264,8 +303,12 @@ X = 文字/圖片/影像/聲音/語音/音樂
 ## 以文字撮合/提取X的內容
 X = 文字/圖片/影像/聲音/語音/音樂
 - [文字綜合, Summarization]()
+
 - [圖片生成文字標題, Image Description]()
+- [圖片生成文字標題](https://artsandculture.google.com/experiment/say-what-you-see/jwG3m7wQShZngw)
+
 - [影像生成文字標題, RunwayML]()
+- [聲音生成文字標題, Audio Description]()
 
 ---
 
@@ -280,10 +323,10 @@ X = 文字/圖片/影像/聲音/語音/音樂
 內容...
 
 ## 生成式人工智能的幻覺
-內容...
+- [什麼是 AI 幻覺？](https://cloud.google.com/discover/what-are-ai-hallucinations?hl=zh-TW)
 
 ## 人工智能的道德議題
-內容...
+
 
 ---
 
@@ -298,7 +341,17 @@ X = 文字/圖片/影像/聲音/語音/音樂
 
 # 人工智能道德議題：
 ## 人工智能的倫理
+- [使用人工智能可能帶來的倫理與風險](https://pansci.asia/archives/361905)
+- 假新聞/深偽
+  - [Deepfake](https://detectfakes.kellogg.northwestern.edu/)
+人工智能的倫理風險
+- [電車難題(Trial By Trolley)](https://www.moralmachine.net/hl/zh)
 ## 人工智能的偏見
+- [訓練數據的偏見](https://www.survivalofthebestfit.com/)
+- [KYD](https://knowyourdata.withgoogle.com/)
 ## 人工智能的透明度
+- [AI 透明度](https://www.tensorflow.org/responsible_ai)
+- [Measuring Fairness](https://pair.withgoogle.com/explorables/measuring-fairness/)
 ## 人工智能產生的隱私問題
+- 
 ## 人工智能產生的安全問題
