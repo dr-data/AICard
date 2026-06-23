@@ -258,6 +258,7 @@
 - <a href="https://copilot.microsoft.com/" target="_blank">Microsoft Co-pilot</a>
 - <a href="https://poe.chat/" target="_blank">POE</a>
 - <a href="https://play.aidungeon.io/" target="_blank">AI Dungeon</a>
+- <a href="https://auferet.com/" target="_blank">Auferet</a>
 - <a href="https://www.perplexity.ai/" target="_blank">Perplexity</a>
 
 ## 編程
